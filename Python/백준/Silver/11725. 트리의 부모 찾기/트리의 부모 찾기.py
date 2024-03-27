@@ -2,7 +2,6 @@ import sys
 
 sys.setrecursionlimit(10**6)
 n = int(sys.stdin.readline())
-arr = []
 
 graph = [[] for i in range(n+1)]
 
