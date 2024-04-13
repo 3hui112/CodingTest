@@ -1,14 +1,13 @@
 def dfs(depth, start):
     global result
-    # 기저
     if depth == len_:
-        lemon = 1
-        bad = 0
+        sour = 1
+        bitter = 0
         for i in arr:
-            lemon *= i[0] 
-            bad += i[1] 
-        if abs(bad - lemon) < result: 
-            result = abs(bad - lemon)
+            sour *= i[0] 
+            bitter += i[1] 
+        if abs(bitter - sour) < result: 
+            result = abs(bitter - sour)
         return 
    
     for i in range(start, N):
